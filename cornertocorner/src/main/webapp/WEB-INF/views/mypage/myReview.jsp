@@ -35,9 +35,13 @@
 </script>
 <body>
 <div class = "container">
-   <h4 class="mainText">이용후기 내역</h4>
-   <br>
-   <p>${member.member_name}님의 이용후기 내역입니다.</p>
+   <!-- 상단 간략화 메뉴 -->
+	<nav class="text-end" aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="${contextPath}/mypage/myInfo.do" style="text-decoration:none; color:black;">나의 여행후기</a></li>
+			<li class="breadcrumb-item active" aria-current="page">나의 여행후기 조회</li>
+		</ol>
+	</nav>
    <table class="table" style="width: 80%">
   <thead>
     <tr>
@@ -52,7 +56,7 @@
      <c:choose>
         <c:when test="${ empty review }">
            <tr>
-              <td><strong>등록된 이용후기가 없습니다.</strong></td>
+              <td class = "fs-4 fw-bolder text-center">등록된 여행후기가 없습니다.</td>
            </tr>
         </c:when>
      <c:otherwise>

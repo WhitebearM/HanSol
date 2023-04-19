@@ -33,6 +33,9 @@ public class CompanyVO {
       
    }
    
+   public CompanyVO(String com_id) {
+	   this.com_id = com_id;
+   }
    
    public CompanyVO(String com_name, String com_email) {
       this.com_name=com_name;

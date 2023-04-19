@@ -18,7 +18,7 @@ public class AdminSalesDAOImpl implements AdminSalesDAO{
 	//전체 주문내역 조회
 	@Override
 	public List<OrderVO> selectAllOrderList(MemberVO memberInfo) throws DataAccessException{
-		List<OrderVO> revervation = sqlSession.selectList("mapper.order.selectAllOrderList", memberInfo);
+		List<OrderVO> revervation = sqlSession.selectList("mapper.admin.selectAllOrderList", memberInfo);
 		return revervation;
 	}
 

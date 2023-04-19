@@ -312,11 +312,11 @@
    </script>
 </head>
 <body>
-   <div class = "container col-md-10 justify-content-center text-center">
+   <div class = "container col-md-8 justify-content-center text-center">
       <!-- 상단 간략화 메뉴 -->
-	<nav class="text-end" style="margin-top:0.5%; text-align:center;" aria-label="breadcrumb">
+	<nav class="text-end" aria-label="breadcrumb">
 		<ol class="breadcrumb">
-			 class="breadcrumb-item"><a href="${contextPath}/mypage/myInfo.do" style="text-decoration:none; color:black;">마이페이지</a></li>
+			<li class="breadcrumb-item"><a href="${contextPath}/mypage/myInfo.do" style="text-decoration:none; color:black;">마이페이지</a></li>
 			<li class="breadcrumb-item active" aria-current="page">나의 상세정보</li>
 		</ol>
 	</nav>
@@ -407,11 +407,11 @@
                         <label for="member_zipcode"><a href="javascript:execDaumPostcode()">우편번호검색</a></label>
                      </div>
                      <div class="form-floating">
-                        <input type="text" class="form-control" id="member_local_address" value="${memberInfo.member_local_address}" name="member_local_address">
+                        <input type="text" class="form-control" id="member_local_address" value="${memberInfo.member_road_address}" name="member_local_address">
                         <label for="member_local_address">도로명주소</label>
                   </div>
                   <div class="form-floating">
-                     <input type="text" class="form-control" id="member_road_address" value="${memberInfo.member_road_address}" name="member_road_address">
+                     <input type="text" class="form-control" id="member_road_address" value="${memberInfo.member_local_address}" name="member_road_address">
                      <label for="member_road_address">지번주소</label>
                   </div>
                   <div class="form-floating">

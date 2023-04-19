@@ -190,8 +190,8 @@
   <tr  id="tr_btn"    >
    <td colspan="2" align="center">
        <c:if test="${memberInfo.member_id == reviewMap.member_id }">
-         <input type=button value="수정하기" onClick="fn_enable(this.form)">
-         <input type=button value="삭제하기" onClick="fn_remove_article('${contextPath}/mypage/removeReview.do', ${reviewMap.review_num})">
+         <!-- <input type=button value="수정하기" onClick="fn_enable(this.form)"> -->
+         <input type=button value="삭제하기" onClick="fn_remove_review('${contextPath}/mypage/removeReview.do', ${reviewMap.review_num})">
        </c:if>
        <input type=button value="리스트로 돌아가기"  onClick="backToListed(frmReview)">
         <%-- <input type=button value="답글쓰기"  onClick="fn_reply_form('${contextPath}/mypage/replyForm.do', ${reviewMap.review_num})"> --%>

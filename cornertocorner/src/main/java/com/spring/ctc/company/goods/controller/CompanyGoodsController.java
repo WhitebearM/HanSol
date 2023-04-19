@@ -10,6 +10,4 @@ import org.springframework.web.servlet.ModelAndView;
 
 public interface CompanyGoodsController {
 	
-	public ModelAndView reservation(HttpServletRequest request, HttpServletResponse response) throws Exception;
-	public ModelAndView reservationfind(@RequestParam Map<String,String> find ,HttpServletRequest request, HttpServletResponse response) throws Exception;
 }

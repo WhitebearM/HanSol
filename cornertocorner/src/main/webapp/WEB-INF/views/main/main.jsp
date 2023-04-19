@@ -726,6 +726,208 @@ $('#carouselExampleInterval').on('slide.bs.carousel', function (e) {
                </div>
             </div>
          </div>
+         <div class="PopularContent PopularContent2">
+
+            <div class="col depth1">
+               <h3>패키지</h3>
+               <span class="con_more"><a href="#">상품 더 보기 ></a></span>
+            </div>
+
+            <div class="col depth2">
+               <div id="ConEvnt2"
+                  class="ConEvnt swiper-container swiper-container-horizontal">
+                  <ul class="swiper-wrapper">
+                     <li class="swiper-slide"><a href="#">
+                           <div class="ConTx">
+                              <pre>이제는 울릉도다</pre>
+                              <span>자연과 하나되어 만드는 여행</span>
+                           </div>
+                           <div class="ConPhoto">
+                              <img src="${contextPath}/resources/image/package/package02.jpg"
+                                 alt="패키지이미지">
+                           </div>
+                     </a></li>
+                     <li class="swiper-slide"><a href="#">
+                           <div class="ConTx">
+                              <pre>중형차<br>모음</pre>
+                              <span>넉넉한 공간, 합리적인 선택</span>
+                           </div>
+                           <div class="ConPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem01.jpg"
+                                 alt="중형차이미지">
+                           </div>
+                     </a></li>
+                     <li class="swiper-slide"><a href="#">
+                           <div class="ConTx">
+                              <pre>고급차<br>모음</pre>
+                              <span>럭셔리하고 편안한 제주여행</span>
+                           </div>
+                           <div class="ConPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem02.jpg"
+                                 alt="고급차이미지">
+                           </div>
+                     </a></li>
+                     <li class="swiper-slide"><a href="#">
+                           <div class="ConTx">
+                              <pre>SUV/승합차<br>모음</pre>
+                              <span>다같이 함께하는 즐거운 드라이빙</span>
+                           </div>
+                           <div class="ConPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem03.jpg"
+                                 alt="SUV/승합차이미지">
+                           </div>
+                     </a></li>
+                     <li class="swiper-slide"><a href="#">
+                           <div class="ConTx">
+                              <pre>오픈카/수입차<br>모음</pre>
+                              <span>새로운 경험, 특별한 제주여행!</span>
+                           </div>
+                           <div class="ConPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem04.jpg"
+                                 alt="오픈카/수입차이미지">
+                           </div>
+                     </a></li>
+                     <li class="swiper-slide"><a href="#">
+                           <div class="ConTx">
+                              <pre>경차/소형차<br>모음</pre>
+                              <span>합리적인 당신, 실속있는 선택!</span>
+                           </div>
+                           <div class="ConPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem05.jpg"
+                                 alt="경차/소형차이미지">
+                           </div>
+                     </a></li>
+                  </ul>
+               </div>
+               <div class="bxBtn">
+                  <a class="bx-prev" id="rcPrevBtn" href="">Prev</a> <a
+                     class="bx-next" id="rcNextBtn" href="">Next</a>
+               </div>
+            </div>
+
+
+            <div class="col depth3">
+               <div id="RCctgr" class="categoryPopularItems">
+                  <ul class="col_3">
+                     <li><a href="#" class="bx_list">
+                           <div class="bxPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem01.jpg"
+                                 alt="product">
+                           </div>
+                           <div class="bxInfo">
+                              <div class="bxTitle">캐스퍼</div>
+                              <div class="bxEvent">(주)레드캡투어</div>
+                              <div class="bxPrice">
+                                 <span class="text__price">28,600</span> <span
+                                    class="text__unit">원</span>
+                              </div>
+                              <div class="bxLabel">
+                                 <!---->
+                                 <span class="main_label">할인쿠폰</span>
+                                 <!---->
+                              </div>
+                           </div>
+                     </a></li>
+                     <li><a href="#" class="bx_list">
+                           <div class="bxPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem02.jpg"
+                                 alt="product">
+                           </div>
+                           <div class="bxInfo">
+                              <div class="bxTitle">쏘나타 DN8</div>
+                              <div class="bxEvent">제주한라렌트카</div>
+                              <div class="bxPrice">
+                                 <span class="text__price">40,000</span> <span
+                                    class="text__unit">원</span>
+                              </div>
+                              <div class="bxLabel">
+                                 <!---->
+                                 <span class="main_label">할인쿠폰</span>
+                                 <!---->
+                              </div>
+                           </div>
+                     </a></li>
+                     <li><a href="#" class="bx_list">
+                           <div class="bxPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem03.jpg"
+                                 alt="product">
+                           </div>
+                           <div class="bxInfo">
+                              <div class="bxTitle">코나 SX2</div>
+                              <div class="bxEvent">제주공항렌터카</div>
+                              <div class="bxPrice">
+                                 <span class="text__price">25,100</span> <span
+                                    class="text__unit">원</span>
+                              </div>
+                              <div class="bxLabel">
+                                 <!---->
+                                 <span class="main_label">할인쿠폰</span>
+                                 <!---->
+                              </div>
+                           </div>
+                     </a></li>
+                     <li><a href="#" class="bx_list">
+                           <div class="bxPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem04.jpg"
+                                 alt="product">
+                           </div>
+                           <div class="bxInfo">
+                              <div class="bxTitle">EV6 롱 레인지</div>
+                              <div class="bxEvent">자유렌트카</div>
+                              <div class="bxPrice">
+                                 <span class="text__price">31,800</span> <span class="text__unit">원</span>
+                              </div>
+                              <div class="bxLabel">
+                                 <!---->
+                                 <span class="main_label">할인쿠폰</span>
+                                 <!---->
+                              </div>
+                           </div>
+                     </a></li>
+                     <li><a href="#" class="bx_list">
+                           <div class="bxPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem05.jpg"
+                                 alt="product">
+                           </div>
+                           <div class="bxInfo">
+                              <div class="bxTitle">미니 컨버터블</div>
+                              <div class="bxEvent">블루렌트카</div>
+                              <div class="bxPrice">
+                                 <span class="text__price">594,000</span> <span
+                                    class="text__unit">원</span>
+                              </div>
+                              <div class="bxLabel">
+                                 <!---->
+                                 <span class="main_label">할인쿠폰</span>
+                                 <!---->
+                              </div>
+                           </div>
+                     </a></li>
+                     <li>
+                        <a href="#" class="bx_list">
+                           <div class="bxPhoto">
+                              <img src="${contextPath}/resources/image/package/pckItem06.jpg"
+                                 alt="product">
+                           </div>
+                           <div class="bxInfo">
+                              <div class="bxTitle">그랜드 스타렉스(12인승)</div>
+                              <div class="bxEvent">(주)레츠고렌트카</div>
+                              <div class="bxPrice">
+                                 <span class="text__price">44,000</span> <span
+                                    class="text__unit">원</span>
+                              </div>
+                              <div class="bxLabel">
+                                 <!---->
+                                 <span class="main_label">할인쿠폰</span>
+                                 <!---->
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
       </div>
    </div>
 <script type="text/javascript" src="${contextPath}/resources/jquery/swiper.js"></script>

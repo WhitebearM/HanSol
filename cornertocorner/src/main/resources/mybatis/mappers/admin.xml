@@ -52,13 +52,19 @@
       <result property="member_deldate" column="member_deldate"/>
    </resultMap>
    
+   <!-- 관리자 매출 조회 -->
+	<select id="selectAllOrderList" parameterType="java.util.Map" resultType="orderVO">
+		SELECT order_num, member_id, goods_name, order_status, order_date, goods_saleprice, pay_order_time, refund_price, pay_status
+		FROM reservation
+	</select>
    
 	<!-- 전체 상품 조회 -->
-	<select id="selectMyOrderHistoryList" resultMap="goodsResult"   parameterType="java.util.Map"  >
-		<![CDATA[
-			select * from goods
-			where DATE_FORMAT(goods_entered_date, '%Y-%m-%d') between date_format(#{beginDate},'%Y-%m-%d') and date_format(#{endDate},'%Y-%m-%d')
-			order by goods_entered_date desc
-		]]>
-	</select>
+   <select id="selectMyOrderHistoryList" resultMap="goodsResult" parameterType="java.util.Map">
+      <![CDATA[
+         select * from goods
+         where DATE_FORMAT(goods_entered_date, '%Y-%m-%d') between date_format(#{beginDate},'%Y-%m-%d') and date_format(#{endDate},'%Y-%m-%d')
+         order by goods_entered_date desc
+      ]]>
+   </select>
+
 </mapper>

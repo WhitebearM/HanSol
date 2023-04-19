@@ -24,15 +24,15 @@
 	</definition>
 	
 	<!-- 사업체 예약관리 페이지-->
-   <definition name="/comGoods/reservation" extends="comSide">
+   <definition name="/comOrder/reservation" extends="comSide">
       <put-attribute name="title" value="사업체 예약 관리 페이지" />
-      <put-attribute name="body" value="/WEB-INF/views/company/goods/comGoodsList.jsp" />
+      <put-attribute name="body" value="/WEB-INF/views/company/order/comOrderList.jsp" />
    </definition>
    
    <!-- 사업체 예약관리 페이지이동-->
-   <definition name="/comGoods/reservationfind" extends="comSide">
+   <definition name="/comOrder/reservationfind" extends="comSide">
       <put-attribute name="title" value="사업체 예약 관리 페이지" />
-      <put-attribute name="body" value="/WEB-INF/views/company/goods/comGoodsList.jsp" />
+      <put-attribute name="body" value="/WEB-INF/views/company/order/comOrderList.jsp" />
    </definition>
 	
 </tiles-definitions>

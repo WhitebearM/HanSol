@@ -20,7 +20,7 @@
       <div class = "mt-5 h-100 align-middle">
          <img src = "${contextPath}/resources/image/receipt.png" alt = "결제완료" class = "mb-2">
          <h3>예약/결제가 정상적으로 완료되었습니다.</h3>
-         <p>예약/결제 내역 상세 확인 및 취소, 변경 등의 서비스는 <a href = "${contextPath}/mypage/myInfo.do">마이페이지 > 나의 예약조회</a>에서 확인하실 수 있습니다.</p>
+         <p>예약/결제 내역 상세 확인 및 취소, 변경 등의 서비스는 <a href = "${contextPath}/mypage/myOrder.do">마이페이지 > 나의 예약조회</a>에서 확인하실 수 있습니다.</p>
       </div>
       <table class="mt-5 table caption-top table table-bordered align-middle">
          <%-- <caption class="fs-5">주문 번호 <span style = "color : #808080; font-size : 0.8em;">MHJ-OD23032302471GQP001</span></caption> --%>

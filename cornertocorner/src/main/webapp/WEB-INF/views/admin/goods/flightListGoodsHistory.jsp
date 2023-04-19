@@ -53,7 +53,7 @@ input{
    <!-- 상단 간략화 메뉴 -->
    <nav class="text-end" style="margin-top:0.5%; text-align:center;" aria-label="breadcrumb">
       <ol class="breadcrumb">
-         <li class="breadcrumb-item"><a href="${contextPath}/adminGoods/flightlistGoodsHistory.do" style="text-decoration:none; color:black;">상품 관리</a></li>
+         <li class="breadcrumb-item"><a href="${contextPath}/adminGoods/flightListGoodsHistory.do" style="text-decoration:none; color:black;">상품 관리</a></li>
          <li class="breadcrumb-item active" aria-current="page">상품 목록 조회</li>
       </ol>
    </nav>

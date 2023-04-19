@@ -19,32 +19,38 @@
 	
 	<!-- 관리자 전체 상품 조회 페이지 -->
 	<definition name="/adminGoods/listGoodsHistory" extends="adminSide">
-		<put-attribute name="title" value="관리자 상품 관리 페이지" />
+		<put-attribute name="title" value="관리자 매출관리 페이지" />
 		<put-attribute name="body" value="/WEB-INF/views/admin/goods/adminGoodsList.jsp" />
 	</definition>
 	
 	<!-- 관리자 항공 상품 조회 페이지 -->
-	<definition name="/adminGoods/flightListGoodsHistory" extends="adminSide">
-		<put-attribute name="title" value="관리자 항공 상품 관리 페이지" />
-		<put-attribute name="body" value="/WEB-INF/views/admin/goods/flightListGoodsHistory.jsp" />
-	</definition>
+   <definition name="/adminGoods/flightListGoodsHistory" extends="adminSide">
+      <put-attribute name="title" value="관리자 항공 상품 관리 페이지" />
+      <put-attribute name="body" value="/WEB-INF/views/admin/goods/flightListGoodsHistory.jsp" />
+   </definition>
+   
+   <!-- 관리자 렌트 상품 조회 페이지 -->
+   <definition name="/adminGoods/rentListGoodsHistory" extends="adminSide">
+      <put-attribute name="title" value="관리자 렌트 상품 관리 페이지" />
+      <put-attribute name="body" value="/WEB-INF/views/admin/goods/rentListGoodsHistory.jsp" />
+   </definition>
+   
+   <!-- 관리자 숙박 상품 조회 페이지 -->
+   <definition name="/adminGoods/hotelListGoodsHistory" extends="adminSide">
+      <put-attribute name="title" value="관리자 호텔 상품 관리 페이지" />
+      <put-attribute name="body" value="/WEB-INF/views/admin/goods/hotelListGoodsHistory.jsp" />
+   </definition>
+   
+   <!-- 관리자 패키지 상품 조회 페이지 -->
+   <definition name="/adminGoods/packageListGoodsHistory" extends="adminSide">
+      <put-attribute name="title" value="관리자 호텔 상품 관리 페이지" />
+      <put-attribute name="body" value="/WEB-INF/views/admin/goods/packageListGoodsHistory.jsp" />
+   </definition>
 	
-	<!-- 관리자 렌트 상품 조회 페이지 -->
-	<definition name="/adminGoods/rentListGoodsHistory" extends="adminSide">
-		<put-attribute name="title" value="관리자 렌트 상품 관리 페이지" />
-		<put-attribute name="body" value="/WEB-INF/views/admin/goods/rentListGoodsHistory.jsp" />
-	</definition>
-	
-	<!-- 관리자 숙박 상품 조회 페이지 -->
-	<definition name="/adminGoods/hotelListGoodsHistory" extends="adminSide">
-		<put-attribute name="title" value="관리자 호텔 상품 관리 페이지" />
-		<put-attribute name="body" value="/WEB-INF/views/admin/goods/hotelListGoodsHistory.jsp" />
-	</definition>
-	
-	<!-- 관리자 숙박 상품 조회 페이지 -->
-	<definition name="/adminGoods/packageListGoodsHistory" extends="adminSide">
-		<put-attribute name="title" value="관리자 호텔 상품 관리 페이지" />
-		<put-attribute name="body" value="/WEB-INF/views/admin/goods/packageListGoodsHistory.jsp" />
+	<!-- 관리자 전체 주문 조회 페이지 -->
+	<definition name="/adminOrder/adminAllOrderList" extends="adminSide">
+		<put-attribute name="title" value="관리자 매출관리 페이지" />
+		<put-attribute name="body" value="/WEB-INF/views/admin/order/adminOrderList.jsp" />
 	</definition>
 	
 </tiles-definitions>

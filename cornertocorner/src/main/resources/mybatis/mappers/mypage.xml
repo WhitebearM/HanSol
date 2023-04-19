@@ -97,7 +97,7 @@
 	</select>
 	
 	<!--  reservation(주문)목록 출력  -->
-	<select id="selectMyOrderList" resultType="orderVO" parameterType="java.util.Map">
+	<select id="selectOrderList" resultType="orderVO" parameterType="java.util.Map">
 		<![CDATA[ SELECT * FROM reservation WHERE member_id = #{member_id} ]]>
 	</select>
 	

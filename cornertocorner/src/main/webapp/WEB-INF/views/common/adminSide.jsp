@@ -33,16 +33,16 @@
 				</ul>
 			</c:when>
 			<%-- 관리자 모드 - 상품관리 사이드바 --%>
-			<c:when test="${side_menu =='goodsManage_mode' }">
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item"><a href="${contextPath}/adminGoods/listGoodsHistory.do">전체 상품조회</a></li>
-					<li class="list-group-item"><a href="${contextPath}/adminGoods/hotelListGoodsHistory.do">숙박</a></li>
-					<li class="list-group-item"><a href="${contextPath}/adminGoods/rentListGoodsHistory.do">렌트</a></li>
-					<li class="list-group-item"><a href="${contextPath}/adminGoods/flightListGoodsHistory.do">항공</a></li>
-					<li class="list-group-item"><a href="${contextPath}/adminGoods/packageListGoodsHistory.do">패키지</a></li>
-					<li class="list-group-item"><a href="#">상품 승인</a></li>
-				</ul>
-			</c:when>
+	         <c:when test="${side_menu =='goodsManage_mode' }">
+	            <ul class="list-group list-group-flush">
+	               <li class="list-group-item"><a href="${contextPath}/adminGoods/listGoodsHistory.do">전체 상품조회</a></li>
+	               <li class="list-group-item"><a href="${contextPath}/adminGoods/hotelListGoodsHistory.do">숙박</a></li>
+	               <li class="list-group-item"><a href="${contextPath}/adminGoods/rentListGoodsHistory.do">렌트</a></li>
+	               <li class="list-group-item"><a href="${contextPath}/adminGoods/flightListGoodsHistory.do">항공</a></li>
+	               <li class="list-group-item"><a href="${contextPath}/adminGoods/packageListGoodsHistory.do">패키지</a></li>
+	               <li class="list-group-item"><a href="#">상품 승인</a></li>
+	            </ul>
+	         </c:when>
 			<%-- 관리자 모드 - 예약관리 사이드바 --%>
 			<c:when test="${side_menu =='reservationManage_mode' }">
 				<ul class="list-group list-group-flush">

@@ -133,7 +133,7 @@
                                <li><a href="${contextPath}/mypage/myInfo.do" class="nav-link px-2 text-dark">마이페이지</a></li>
                                <li><a href="${contextPath}/board/faq.do" class="nav-link px-2 text-dark">고객센터</a></li>
                                <li><a href="${contextPath}/main/intro.do" class="nav-link px-2 text-dark">회사소개</a></li>
-                               <li><a href="${contextPath}/comGoods/reservation.do" class="nav-link px-2 text-dark">사업자</a></li>
+                               <li><a href="${contextPath}/comOrder/reservation.do" class="nav-link px-2 text-dark">사업자</a></li>
                              </c:when>
                              <c:otherwise>
 								<li><a href="${contextPath}/joinAndLogin/selectLogin.do" class="nav-link px-2 text-dark">로그인</a></li>
@@ -157,7 +157,7 @@
 						<img src="${contextPath}/resources/image/goods.png" alt="Logo" width="30%" class="align-center">
 						<p>상품 관리</p>
 					</a>
-					<a class="navbar-brand" href="#">
+					<a class="navbar-brand" href="${contextPath}/adminOrder/adminAllOrderList.do">
 						<img src="${contextPath}/resources/image/order.png" alt="Logo" width="30%" class="align-center">
 						<p>주문 관리</p>
 					</a>

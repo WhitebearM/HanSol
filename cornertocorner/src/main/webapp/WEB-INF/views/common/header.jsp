@@ -133,7 +133,7 @@
                                <li><a href="${contextPath}/mypage/myInfo.do" class="nav-link px-2 text-dark">마이페이지</a></li>
                                <li><a href="${contextPath}/board/faq.do" class="nav-link px-2 text-dark">고객센터</a></li>
                                <li><a href="${contextPath}/main/intro.do" class="nav-link px-2 text-dark">회사소개</a></li>
-                               <li><a href="${contextPath}/comGoods/reservation.do" class="nav-link px-2 text-dark">사업자</a></li>
+                               <li><a href="${contextPath}/comOrder/reservation.do" class="nav-link px-2 text-dark">사업자</a></li>
                              </c:when>
                              <c:otherwise>
 								<li><a href="${contextPath}/joinAndLogin/selectLogin.do" class="nav-link px-2 text-dark">로그인</a></li>
