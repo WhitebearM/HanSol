@@ -421,7 +421,7 @@ $('#carouselExampleInterval').on('slide.bs.carousel', function (e) {
                               </div>
                               <div class="bxLabel">
                                  <!---->
-                                 <span class="main_label">할인쿠폰</span>
+                                 <span class="main_label">특가상품</span>
                                  <!---->
                               </div>
                            </div>
@@ -480,7 +480,7 @@ $('#carouselExampleInterval').on('slide.bs.carousel', function (e) {
                               </div>
                               <div class="bxLabel">
                                  <!---->
-                                 <span class="main_label">할인쿠폰</span>
+                                 <span class="main_label">특가상품</span>
                                  <!---->
                               </div>
                            </div>
@@ -811,94 +811,94 @@ $('#carouselExampleInterval').on('slide.bs.carousel', function (e) {
                   <ul class="col_3">
                      <li><a href="#" class="bx_list">
                            <div class="bxPhoto">
-                              <img src="${contextPath}/resources/image/package/pckItem01.jpg"
+                              <img src="${contextPath}/resources/image/package/package02.png"
                                  alt="product">
                            </div>
                            <div class="bxInfo">
-                              <div class="bxTitle">캐스퍼</div>
-                              <div class="bxEvent">(주)레드캡투어</div>
+                              <div class="bxTitle">울릉도</div>
+                              <div class="bxEvent">내차로 떠나는 울릉도 자유여행!!</div>
                               <div class="bxPrice">
-                                 <span class="text__price">28,600</span> <span
+                                 <span class="text__price">499000</span> <span
                                     class="text__unit">원</span>
                               </div>
                               <div class="bxLabel">
                                  <!---->
-                                 <span class="main_label">할인쿠폰</span>
+                                 <span class="main_label">특가상품</span>
                                  <!---->
                               </div>
                            </div>
                      </a></li>
                      <li><a href="#" class="bx_list">
                            <div class="bxPhoto">
-                              <img src="${contextPath}/resources/image/package/pckItem02.jpg"
+                              <img src="${contextPath}/resources/image/package/package06.jpg"
                                  alt="product">
                            </div>
                            <div class="bxInfo">
-                              <div class="bxTitle">쏘나타 DN8</div>
-                              <div class="bxEvent">제주한라렌트카</div>
+                              <div class="bxTitle">포항</div>
+                              <div class="bxEvent">구룡포/호미곶/영일대/갯마을차차차 1박 2일</div>
                               <div class="bxPrice">
-                                 <span class="text__price">40,000</span> <span
+                                 <span class="text__price">349000</span> <span
                                     class="text__unit">원</span>
                               </div>
                               <div class="bxLabel">
                                  <!---->
-                                 <span class="main_label">할인쿠폰</span>
+                                 <span class="main_label">특가상품</span>
                                  <!---->
                               </div>
                            </div>
                      </a></li>
                      <li><a href="#" class="bx_list">
                            <div class="bxPhoto">
-                              <img src="${contextPath}/resources/image/package/pckItem03.jpg"
+                              <img src="${contextPath}/resources/image/package/package05.jpg"
                                  alt="product">
                            </div>
                            <div class="bxInfo">
-                              <div class="bxTitle">코나 SX2</div>
-                              <div class="bxEvent">제주공항렌터카</div>
+                              <div class="bxTitle">제주</div>
+                              <div class="bxEvent">제주 속 아름다운 우도 섬을 함께 볼 수 있는 실속여행 상품</div>
                               <div class="bxPrice">
-                                 <span class="text__price">25,100</span> <span
+                                 <span class="text__price">369,000</span> <span
                                     class="text__unit">원</span>
                               </div>
                               <div class="bxLabel">
                                  <!---->
-                                 <span class="main_label">할인쿠폰</span>
+                                 <span class="main_label">특가상품</span>
                                  <!---->
                               </div>
                            </div>
                      </a></li>
                      <li><a href="#" class="bx_list">
                            <div class="bxPhoto">
-                              <img src="${contextPath}/resources/image/package/pckItem04.jpg"
+                              <img src="${contextPath}/resources/image/package/package04.jpg"
                                  alt="product">
                            </div>
                            <div class="bxInfo">
-                              <div class="bxTitle">EV6 롱 레인지</div>
-                              <div class="bxEvent">자유렌트카</div>
+                              <div class="bxTitle">한려수도일주</div>
+                              <div class="bxEvent">#통영/거제/산청</div>
                               <div class="bxPrice">
-                                 <span class="text__price">31,800</span> <span class="text__unit">원</span>
+                                 <span class="text__price">700,000</span> <span class="text__unit">원</span>
                               </div>
                               <div class="bxLabel">
                                  <!---->
-                                 <span class="main_label">할인쿠폰</span>
+                                 <span class="main_label">특가상품</span>
                                  <!---->
                               </div>
                            </div>
                      </a></li>
                      <li><a href="#" class="bx_list">
                            <div class="bxPhoto">
-                              <img src="${contextPath}/resources/image/package/pckItem05.jpg"
+                              <img src="${contextPath}/resources/image/package/package03.jpg"
                                  alt="product">
                            </div>
                            <div class="bxInfo">
-                              <div class="bxTitle">미니 컨버터블</div>
-                              <div class="bxEvent">블루렌트카</div>
+                              <div class="bxTitle">경상일주 3일</div>
+                              <div class="bxEvent">#울산/경주 #맛기행 </div>
                               <div class="bxPrice">
-                                 <span class="text__price">594,000</span> <span
+                                 <span class="text__price">700,000</span> <span
                                     class="text__unit">원</span>
                               </div>
                               <div class="bxLabel">
                                  <!---->
-                                 <span class="main_label">할인쿠폰</span>
+                                 <span class="main_label">특가상품</span>
                                  <!---->
                               </div>
                            </div>
@@ -906,19 +906,19 @@ $('#carouselExampleInterval').on('slide.bs.carousel', function (e) {
                      <li>
                         <a href="#" class="bx_list">
                            <div class="bxPhoto">
-                              <img src="${contextPath}/resources/image/package/pckItem06.jpg"
+                              <img src="${contextPath}/resources/image/package/package01.jpg"
                                  alt="product">
                            </div>
                            <div class="bxInfo">
-                              <div class="bxTitle">그랜드 스타렉스(12인승)</div>
-                              <div class="bxEvent">(주)레츠고렌트카</div>
+                              <div class="bxTitle">블랙스톤 벨포레리조트</div>
+                              <div class="bxEvent">#가족친화리조트 #놀거리가득 #자연속리조트</div>
                               <div class="bxPrice">
-                                 <span class="text__price">44,000</span> <span
+                                 <span class="text__price">133,970</span> <span
                                     class="text__unit">원</span>
                               </div>
                               <div class="bxLabel">
                                  <!---->
-                                 <span class="main_label">할인쿠폰</span>
+                                 <span class="main_label">특가상품</span>
                                  <!---->
                               </div>
                            </div>

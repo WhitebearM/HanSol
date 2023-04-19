@@ -112,7 +112,7 @@
           </div>
         </div>
         <div class="card card-primary text-center border-0 mx-3">
-          <img class="card-img-top rounded-circle" src="${contextPath}/resources/image/hotel/htList02.png" alt="부산-추천숙박상품">
+          <img class="card-img-top rounded-circle" src="${contextPath}/resources/image/hotel/htList03.jpg" alt="부산-추천숙박상품">
           <div class="card-img-overlay">
             <div class="card-title fs-3 fw-bold align-text-bottom">BUSAN</div>
           </div>

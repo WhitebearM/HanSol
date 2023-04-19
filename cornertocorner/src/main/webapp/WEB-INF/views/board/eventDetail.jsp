@@ -38,19 +38,15 @@
 				<span class = "justify-content-end">${eventMap.event_write_date}</span>
 				<hr>
 				<img src="${contextPath}/resources/image/event/eventImage01.png" class = "w-80">
-				<img src="${contextPath}/resources/image/event/eventImage01.png" class = "w-80">
-				<p></p>
+				<img src="${contextPath}/resources/image/event/eventImage03.png" class = "w-80 mt-3">
 			</div>
 		</div>
 			
 		<!-- 이벤트 관련 호텔 목록 -->
 	    <div class="container mx-2">
-	    	<div class = "container text">
+	    	<div class = "container text my-3">
 	    		<h3>호텔을 특가로!</h3>
 	    	</div> <!-- 원래 이 다음에 메모장 코드 있었음 -->
-	    	<div class="row justify-content-center my-4">
-	    		<img src="${contextPath}/resources/image/event/eventImage01.png" class = "w-80">
-	    	</div>
 	    	<div class = "row row-cols-1 row-cols-md-4 g-4">
 	    		<div class = "col">
 	    			<div class = "card h-100">
