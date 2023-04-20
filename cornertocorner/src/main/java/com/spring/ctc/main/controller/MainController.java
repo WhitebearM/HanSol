@@ -22,8 +22,6 @@ public class MainController {
 	@Autowired
 	MainService mainService;
 	
-	//
-	//
 	
 	@RequestMapping(value= "/main/main.do" ,method={RequestMethod.POST,RequestMethod.GET})
 	public ModelAndView main(HttpServletRequest request, HttpServletResponse response) throws Exception{
@@ -43,7 +41,7 @@ public class MainController {
 		return mav;
 	}
 	
-	//통합검색
+	//�넻�빀寃��깋
 	/*
 	 * @RequestMapping(value="/keywordSearch.do",method = RequestMethod.GET,produces
 	 * = "application/text; charset=utf8") public @ResponseBody String
@@ -56,14 +54,14 @@ public class MainController {
 	 * keyword = keyword.toUpperCase(); List<String> keywordList
 	 * =mainService.keywordSearch(keyword);
 	 * 
-	 * // ���� �ϼ��� JSONObject ����(��ü) JSONObject jsonObject = new JSONObject();
+	 * // 占쏙옙占쏙옙 占싹쇽옙占쏙옙 JSONObject 占쏙옙占쏙옙(占쏙옙체) JSONObject jsonObject = new JSONObject();
 	 * jsonObject.put("keyword", keywordList);
 	 * 
 	 * String jsonInfo = jsonObject.toString(); // System.out.println(jsonInfo);
 	 * return jsonInfo ; }
 	 */
 	
-	//통합검색결과창
+	//�넻�빀寃��깋寃곌낵李�
 	@RequestMapping(value= "/main/totalSearch.do" ,method={RequestMethod.POST,RequestMethod.GET})
 	public ModelAndView totalSearch(HttpServletRequest request, HttpServletResponse response) throws Exception{
 		
