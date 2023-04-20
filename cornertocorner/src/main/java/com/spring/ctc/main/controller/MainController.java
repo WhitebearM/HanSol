@@ -22,6 +22,9 @@ public class MainController {
 	@Autowired
 	MainService mainService;
 	
+	//
+	//
+	
 	@RequestMapping(value= "/main/main.do" ,method={RequestMethod.POST,RequestMethod.GET})
 	public ModelAndView main(HttpServletRequest request, HttpServletResponse response) throws Exception{
 		
